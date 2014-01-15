@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Helpful blogging about devlopment problems]]></title>
+  <link href="http://RobertChumley.github.io/atom.xml" rel="self"/>
+  <link href="http://RobertChumley.github.io/"/>
+  <updated>2014-01-14T23:03:09-05:00</updated>
+  <id>http://RobertChumley.github.io/</id>
+  <author>
+    <name><![CDATA[Robert Chumley]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Setting Up Octopress]]></title>
+    <link href="http://RobertChumley.github.io/blog/2014/01/14/setting-up-octopress/"/>
+    <updated>2014-01-14T22:28:27-05:00</updated>
+    <id>http://RobertChumley.github.io/blog/2014/01/14/setting-up-octopress</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+</feed>
