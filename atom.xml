@@ -4,7 +4,7 @@
   <title><![CDATA[Helpful Blogging On Software Evolution]]></title>
   <link href="http://RobertChumley.github.io/atom.xml" rel="self"/>
   <link href="http://RobertChumley.github.io/"/>
-  <updated>2014-01-15T22:15:57-05:00</updated>
+  <updated>2014-01-15T22:55:10-05:00</updated>
   <id>http://RobertChumley.github.io/</id>
   <author>
     <name><![CDATA[Robert Chumley]]></name>
@@ -19,6 +19,14 @@
     <updated>2014-01-14T22:28:27-05:00</updated>
     <id>http://RobertChumley.github.io/blog/2014/01/14/setting-up-octopress</id>
     <content type="html"><![CDATA[
+
+<figure class='code'><figcaption><span>robsCoolCode.js </span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='js'><span class='line'><span class="kd">var</span> <span class="nx">code</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Code</span><span class="p">();</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
 ]]></content>
   </entry>
   
