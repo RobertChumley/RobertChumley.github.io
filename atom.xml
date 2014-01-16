@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Helpful blogging about software evolution]]></title>
+  <title><![CDATA[Helpful Blogging On Software Evolution]]></title>
   <link href="http://RobertChumley.github.io/atom.xml" rel="self"/>
   <link href="http://RobertChumley.github.io/"/>
-  <updated>2014-01-15T22:12:48-05:00</updated>
+  <updated>2014-01-15T22:15:57-05:00</updated>
   <id>http://RobertChumley.github.io/</id>
   <author>
     <name><![CDATA[Robert Chumley]]></name>
