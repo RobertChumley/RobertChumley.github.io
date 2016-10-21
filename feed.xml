@@ -5,8 +5,8 @@
     <description>Software Development Blog</description>
     <link>http://github.com/RobertChumleyhttp://robertchumley.github.io/</link>
     <atom:link href="http://github.com/RobertChumleyhttp://robertchumley.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 21 Oct 2016 13:26:35 -0700</pubDate>
-    <lastBuildDate>Fri, 21 Oct 2016 13:26:35 -0700</lastBuildDate>
+    <pubDate>Fri, 21 Oct 2016 13:30:27 -0700</pubDate>
+    <lastBuildDate>Fri, 21 Oct 2016 13:30:27 -0700</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -161,8 +161,8 @@ end tell
     &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Image of the day downloaded.'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 </description>
         <pubDate>Sat, 04 Jun 2016 00:00:00 -0700</pubDate>
-        <link>http://github.com/RobertChumleyhttp://robertchumley.github.io/others/2016/06/04/example-content.html</link>
-        <guid isPermaLink="true">http://github.com/RobertChumleyhttp://robertchumley.github.io/others/2016/06/04/example-content.html</guid>
+        <link>http://github.com/RobertChumleyhttp://robertchumley.github.io/others/2016/06/04/example-content-new.html</link>
+        <guid isPermaLink="true">http://github.com/RobertChumleyhttp://robertchumley.github.io/others/2016/06/04/example-content-new.html</guid>
         
         
         <category>others</category>
