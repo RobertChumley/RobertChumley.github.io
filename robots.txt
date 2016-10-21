@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://RobertChumley.github.io/sitemap.xml 
