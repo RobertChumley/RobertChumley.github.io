@@ -5,8 +5,8 @@
     <description>Software Development Blog</description>
     <link>http://github.com/RobertChumleyhttp://robertchumley.github.io/</link>
     <atom:link href="http://github.com/RobertChumleyhttp://robertchumley.github.io/sitemap.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 25 Oct 2016 10:11:23 -0700</pubDate>
-    <lastBuildDate>Tue, 25 Oct 2016 10:11:23 -0700</lastBuildDate>
+    <pubDate>Tue, 25 Oct 2016 10:24:09 -0700</pubDate>
+    <lastBuildDate>Tue, 25 Oct 2016 10:24:09 -0700</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -19,7 +19,7 @@ Since these modules were built to run as root they would not allow for connectin
 
 &lt;p&gt;The solution was the build the docker modules for Kafka and Zookeeper from scratch.  Using this set of instructions:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;kafkanetes&quot;&gt;https://github.com/jim-minter/kafkanetes&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/jim-minter/kafkanetes&quot;&gt;https://github.com/jim-minter/kafkanetes&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;This allows creating containers in Open Shift with the necessary permissions.&lt;/p&gt;
 
@@ -28,6 +28,9 @@ Since these modules were built to run as root they would not allow for connectin
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;kafka&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;This was easily found in the kafkanetes-deploy-kafka-1.yaml file.&lt;/p&gt;
+
+&lt;p&gt;The volume mount definition in the kafkanetes was well defined, but carefully consider where the data is going.  It is recommended to create the Volume name ahead of time 
+then use the template to modify the name of the Volume mount.  This will allow complete control over the location of the volume. Both the kafka and kubernetes definitions will need to be modified.&lt;/p&gt;
 
 &lt;p&gt;The next phase will be installing a kafka cluser and allowing for scaling the cluster through zookeeper.  Also, zookeeper can be used with other services to form a network of services.&lt;/p&gt;
 </description>
