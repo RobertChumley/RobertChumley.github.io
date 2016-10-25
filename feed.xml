@@ -5,8 +5,8 @@
     <description>Software Development Blog</description>
     <link>http://github.com/RobertChumleyhttp://robertchumley.github.io/</link>
     <atom:link href="http://github.com/RobertChumleyhttp://robertchumley.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 21 Oct 2016 14:12:33 -0700</pubDate>
-    <lastBuildDate>Fri, 21 Oct 2016 14:12:33 -0700</lastBuildDate>
+    <pubDate>Tue, 25 Oct 2016 10:11:23 -0700</pubDate>
+    <lastBuildDate>Tue, 25 Oct 2016 10:11:23 -0700</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -32,9 +32,11 @@ Since these modules were built to run as root they would not allow for connectin
 &lt;p&gt;The next phase will be installing a kafka cluser and allowing for scaling the cluster through zookeeper.  Also, zookeeper can be used with other services to form a network of services.&lt;/p&gt;
 </description>
         <pubDate>Fri, 21 Oct 2016 06:47:47 -0700</pubDate>
-        <link>http://github.com/RobertChumleyhttp://robertchumley.github.io/2016/10/21/installing-kafka-in-openshift.html</link>
-        <guid isPermaLink="true">http://github.com/RobertChumleyhttp://robertchumley.github.io/2016/10/21/installing-kafka-in-openshift.html</guid>
+        <link>http://github.com/RobertChumleyhttp://robertchumley.github.io/cloud/2016/10/21/installing-kafka-in-openshift.html</link>
+        <guid isPermaLink="true">http://github.com/RobertChumleyhttp://robertchumley.github.io/cloud/2016/10/21/installing-kafka-in-openshift.html</guid>
         
+        
+        <category>cloud</category>
         
       </item>
     
