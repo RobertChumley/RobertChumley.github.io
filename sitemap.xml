@@ -5,8 +5,8 @@
     <description>Software Development Blog</description>
     <link>http://github.com/RobertChumleyhttp://robertchumley.github.io/</link>
     <atom:link href="http://github.com/RobertChumleyhttp://robertchumley.github.io/sitemap.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 25 Oct 2016 10:30:28 -0700</pubDate>
-    <lastBuildDate>Tue, 25 Oct 2016 10:30:28 -0700</lastBuildDate>
+    <pubDate>Tue, 25 Oct 2016 10:36:06 -0700</pubDate>
+    <lastBuildDate>Tue, 25 Oct 2016 10:36:06 -0700</lastBuildDate>
     <generator>Jekyll v3.3.0</generator>
     
       <item>
@@ -24,10 +24,7 @@ Since these modules were built to run as root they would not allow for connectin
 &lt;p&gt;This allows creating containers in Open Shift with the necessary permissions.&lt;/p&gt;
 
 &lt;p&gt;We also needed to change the name of the container from the silly kafkanetes name to just&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;sh kafka
-kafka
-&lt;/code&gt;&lt;/p&gt;
+&lt;figure class=&quot;code-highlight-figure&quot;&gt;&lt;div class=&quot;code-highlight&quot;&gt;&lt;pre class=&quot;code-highlight-pre&quot;&gt;&lt;div data-line=&quot;1&quot; class=&quot;code-highlight-row numbered&quot;&gt;&lt;div class=&quot;code-highlight-line&quot;&gt;kafka&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/figure&gt;
 
 &lt;p&gt;This was easily found in the kafkanetes-deploy-kafka-1.yaml file.&lt;/p&gt;
 
