@@ -216,7 +216,7 @@
 <p>Consider the initial code block.  This code uses a repository and specifications to build the underlying data.
 The initial code solves the problem by using the repository, adding some data, then saving the information to the database.</p>
 
-<div class="language-cs highlighter-rouge"><pre class="highlight"><code><span class="k">public</span> <span class="n">IWebApiStatusInfo</span> <span class="nf">updateAsset</span><span class="p">(</span><span class="n">vmAsset</span> <span class="n">asset</span><span class="p">)</span>
+<div class="language-c# highlighter-rouge"><pre class="highlight"><code><span class="k">public</span> <span class="n">IWebApiStatusInfo</span> <span class="nf">updateAsset</span><span class="p">(</span><span class="n">vmAsset</span> <span class="n">asset</span><span class="p">)</span>
 <span class="p">{</span>
     <span class="n">var</span> <span class="n">result</span> <span class="p">=</span> <span class="k">new</span> <span class="nf">WebApiStatusInfo</span><span class="p">();</span>
 
@@ -261,7 +261,7 @@ calling system to know where an exception occured. The payload is then set to th
 
 <p>First lets create a static class as an extension onto the Repo:</p>
 
-<div class="language-cs highlighter-rouge"><pre class="highlight"><code>
+<div class="language-c# highlighter-rouge"><pre class="highlight"><code>
 <span class="k">public</span> <span class="k">static</span> <span class="k">class</span> <span class="nc">SRepoExtensions</span>
 <span class="p">{</span>
  <span class="k">public</span> <span class="k">static</span> <span class="n">Asset</span> <span class="nf">ToNewDBAsset</span><span class="p">(</span><span class="k">this</span> <span class="n">vmAsset</span> <span class="n">asset</span><span class="p">,</span> <span class="n">List</span><span class="p">&lt;</span><span class="n">AssetPropType</span><span class="p">&gt;</span> <span class="n">propTypes</span><span class="p">)</span>
@@ -314,7 +314,7 @@ calling system to know where an exception occured. The payload is then set to th
 
 <p><a href="https://www.asp.net/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application">implementing the repository and unit  of work patterns in an asp net mvc application</a></p>
 
-<div class="language-cs highlighter-rouge"><pre class="highlight"><code><span class="k">public</span> <span class="k">class</span> <span class="nc">dtoTest</span> <span class="p">:</span> <span class="n">DTOBase</span>
+<div class="language-c# highlighter-rouge"><pre class="highlight"><code><span class="k">public</span> <span class="k">class</span> <span class="nc">dtoTest</span> <span class="p">:</span> <span class="n">DTOBase</span>
 <span class="p">{</span>   <span class="k">private</span> <span class="k">readonly</span> <span class="n">Func</span><span class="p">&lt;</span><span class="n">List</span><span class="p">&lt;</span><span class="n">AssetPropType</span><span class="p">&gt;&gt;</span> <span class="n">_assetPropTypes</span><span class="p">;</span>
   <span class="k">public</span> <span class="nf">dtoTest</span><span class="p">(</span><span class="n">Func</span><span class="p">&lt;</span><span class="n">List</span><span class="p">&lt;</span><span class="n">AssetPropType</span><span class="p">&gt;&gt;</span> <span class="n">assetPropTypesFunc</span><span class="p">){</span>
     <span class="n">_assetPropTypes</span> <span class="p">=</span> <span class="n">assetPropTypesFunc</span><span class="p">;</span>
